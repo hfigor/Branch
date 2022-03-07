@@ -11,6 +11,7 @@
 		3C0ABB8D27D690360010EC26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0ABB8C27D690360010EC26 /* ContentView.swift */; };
 		3C0ABB8F27D690390010EC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0ABB8E27D690390010EC26 /* Assets.xcassets */; };
 		3C0ABB9227D690390010EC26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0ABB9127D690390010EC26 /* Preview Assets.xcassets */; };
+		3C0ABB9927D6AE730010EC26 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C0ABB9827D6AE730010EC26 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3C0ABB8C27D690360010EC26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C0ABB8E27D690390010EC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C0ABB9127D690390010EC26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C0ABB9827D6AE730010EC26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		3C0ABB8927D690360010EC26 /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				3C0ABB9827D6AE730010EC26 /* README.md */,
 				3C0ABB8A27D690360010EC26 /* BlocksApp.swift */,
 				3C0ABB8C27D690360010EC26 /* ContentView.swift */,
 				3C0ABB8E27D690390010EC26 /* Assets.xcassets */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0ABB9927D6AE730010EC26 /* README.md in Resources */,
 				3C0ABB9227D690390010EC26 /* Preview Assets.xcassets in Resources */,
 				3C0ABB8F27D690390010EC26 /* Assets.xcassets in Resources */,
 			);
