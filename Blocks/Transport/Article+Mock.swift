@@ -26,8 +26,17 @@ extension Article {
         smallImageName:  "houseSimple",
         largeImageName: "houseInterior"
     )
+    
+    static let blockChain2: Self = .init(
+        id: 3,
+        title: "Lego Block Chain",
+        date: Date(),
+        detail: "Add your own Lego block to the chain of transactions to guarantee security by trusting a whole crowd of people you've never met. What can possibly go wrong?",
+        smallImageName: "blockCircle",
+        largeImageName: "chain"
+    )
 }
 
 extension Article {
-    static let mocks: [Self] = [.blockChain, .airBlock]
+    static let mocks: [Self] = [.blockChain, .airBlock, .blockChain2]
 }
