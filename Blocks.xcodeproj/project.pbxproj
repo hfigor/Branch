@@ -15,6 +15,7 @@
 		3C22862F27D913D2005A7A7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22862E27D913D2005A7A7B /* ContentView.swift */; };
 		3C22863227D91C87005A7A7B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22863127D91C87005A7A7B /* Article.swift */; };
 		3C22863527D91DF8005A7A7B /* Article+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22863427D91DF8005A7A7B /* Article+Mock.swift */; };
+		3C22863727D92BFA005A7A7B /* NewsCell+Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C22863627D92BFA005A7A7B /* NewsCell+Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		3C22862E27D913D2005A7A7B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C22863127D91C87005A7A7B /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		3C22863427D91DF8005A7A7B /* Article+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+Mock.swift"; sourceTree = "<group>"; };
+		3C22863627D92BFA005A7A7B /* NewsCell+Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewsCell+Article.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				3C22862E27D913D2005A7A7B /* ContentView.swift */,
 				3C22862C27D91385005A7A7B /* NewsCell.swift */,
+				3C22863627D92BFA005A7A7B /* NewsCell+Article.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C22863227D91C87005A7A7B /* Article.swift in Sources */,
+				3C22863727D92BFA005A7A7B /* NewsCell+Article.swift in Sources */,
 				3C22862D27D91385005A7A7B /* NewsCell.swift in Sources */,
 				3C0ABB8B27D690360010EC26 /* BlocksApp.swift in Sources */,
 				3C22863527D91DF8005A7A7B /* Article+Mock.swift in Sources */,
