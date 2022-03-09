@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct Article {
+struct Article: Identifiable {
+    var id: Int
+    
     let title: String
     let date: Date
     let detail: String
