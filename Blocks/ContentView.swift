@@ -11,17 +11,15 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
             NavigationView {
-                List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                    NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
-                        Text("Text")
-                            .font(.title2)
-                            .fontWeight(.bold)
+                List(0 ..< 5) { item in
+                    NavigationLink(destination: Text("Destination")) {
+                        NewsCell()
                     }
                     
                 }
                 .navigationTitle("News")
             }
-            .tabItem {Label(/*@START_MENU_TOKEN@*/"Label"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"newspaper.fill"/*@END_MENU_TOKEN@*/)}
+            .tabItem {Label("Label"/*@END_MENU_TOKEN@*/, systemImage: /*@START_MENU_TOKEN@*/"newspaper.fill")}
             .tag(1)
             NavigationView {
                 Text("Tab Content 2")
@@ -44,6 +42,23 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        NewsCell()
+           // .fixedSize()
+            .previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/))
+            //.environment(\.sizeCategory, .medium)
+            
         ContentView()
+            .previewLayout(.sizeThatFits)
+    }
+}
+
+struct NewsCell: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+                Text("Text")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                Text(/*@START_MENU_TOKEN@*/"Tertiary Text"/*@END_MENU_TOKEN@*/)
+        }
     }
 }
