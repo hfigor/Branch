@@ -1,4 +1,4 @@
-# Soot_MVP_Apple
+# Blocks - a Lego Architecture
 
 Referencing tutorials:
 https://medium.nextlevelswift.com/build-an-app-like-lego-with-swiftui-tutorial-2-2d01177e35c
