@@ -69,12 +69,12 @@
 		3C0ABB8927D690360010EC26 /* Blocks */ = {
 			isa = PBXGroup;
 			children = (
+				3C0ABB8A27D690360010EC26 /* BlocksApp.swift */,
 				3C22863027D91C62005A7A7B /* Model */,
 				3C22863327D91DCB005A7A7B /* Transport */,
 				3C22862B27D91366005A7A7B /* View */,
 				3C22863E27DA8071005A7A7B /* View Model */,
 				3C0ABB9827D6AE730010EC26 /* README.md */,
-				3C0ABB8A27D690360010EC26 /* BlocksApp.swift */,
 				3C0ABB8E27D690390010EC26 /* Assets.xcassets */,
 				3C0ABB9027D690390010EC26 /* Preview Content */,
 			);
